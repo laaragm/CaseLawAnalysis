@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ETL", "ETL", "{7AECAE36-F627-4F1D-8588-836BD7468A52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{A13C071C-5024-46DC-97AF-46E3124261AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base.Domain", "Base.Domain\Base.Domain.csproj", "{04363B7B-49CF-406B-BF72-7F7C5379E989}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{50EDCF0C-E97D-4735-9B0F-533BF4844FFD}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database", "Database\Database.sqlproj", "{C7F469E0-BE24-4408-830E-0D1EBF743D43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETL.Json", "ETL.Json\ETL.Json.csproj", "{EE9C5BDB-CC94-4EDA-A65C-6840E3B0C1C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETL.Json.Runner", "ETL.Json.Runner\ETL.Json.Runner.csproj", "{17C91A01-B65D-4247-9D7B-F573B1465EA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04363B7B-49CF-406B-BF72-7F7C5379E989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04363B7B-49CF-406B-BF72-7F7C5379E989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04363B7B-49CF-406B-BF72-7F7C5379E989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04363B7B-49CF-406B-BF72-7F7C5379E989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7F469E0-BE24-4408-830E-0D1EBF743D43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7F469E0-BE24-4408-830E-0D1EBF743D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7F469E0-BE24-4408-830E-0D1EBF743D43}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C7F469E0-BE24-4408-830E-0D1EBF743D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7F469E0-BE24-4408-830E-0D1EBF743D43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7F469E0-BE24-4408-830E-0D1EBF743D43}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{EE9C5BDB-CC94-4EDA-A65C-6840E3B0C1C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE9C5BDB-CC94-4EDA-A65C-6840E3B0C1C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE9C5BDB-CC94-4EDA-A65C-6840E3B0C1C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE9C5BDB-CC94-4EDA-A65C-6840E3B0C1C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17C91A01-B65D-4247-9D7B-F573B1465EA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17C91A01-B65D-4247-9D7B-F573B1465EA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17C91A01-B65D-4247-9D7B-F573B1465EA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17C91A01-B65D-4247-9D7B-F573B1465EA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{04363B7B-49CF-406B-BF72-7F7C5379E989} = {A13C071C-5024-46DC-97AF-46E3124261AE}
+		{C7F469E0-BE24-4408-830E-0D1EBF743D43} = {50EDCF0C-E97D-4735-9B0F-533BF4844FFD}
+		{EE9C5BDB-CC94-4EDA-A65C-6840E3B0C1C8} = {7AECAE36-F627-4F1D-8588-836BD7468A52}
+		{17C91A01-B65D-4247-9D7B-F573B1465EA2} = {7AECAE36-F627-4F1D-8588-836BD7468A52}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A96D0955-265B-4F34-BC36-351C4A32B690}
+	EndGlobalSection
+EndGlobal

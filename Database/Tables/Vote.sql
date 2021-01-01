@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Vote]
+(
+	[ID] BIGINT NOT NULL PRIMARY KEY, 
+    [Text] NVARCHAR(MAX) NULL
+)

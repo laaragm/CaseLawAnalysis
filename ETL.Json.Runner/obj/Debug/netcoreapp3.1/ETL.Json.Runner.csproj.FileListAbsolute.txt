@@ -1,0 +1,17 @@
+C:\Users\larag\source\repos\CaseLaw\ETL.Json.Runner\bin\Debug\netcoreapp3.1\ETL.Json.Runner.exe
+C:\Users\larag\source\repos\CaseLaw\ETL.Json.Runner\bin\Debug\netcoreapp3.1\ETL.Json.Runner.deps.json
+C:\Users\larag\source\repos\CaseLaw\ETL.Json.Runner\bin\Debug\netcoreapp3.1\ETL.Json.Runner.runtimeconfig.json
+C:\Users\larag\source\repos\CaseLaw\ETL.Json.Runner\bin\Debug\netcoreapp3.1\ETL.Json.Runner.runtimeconfig.dev.json
+C:\Users\larag\source\repos\CaseLaw\ETL.Json.Runner\bin\Debug\netcoreapp3.1\ETL.Json.Runner.dll
+C:\Users\larag\source\repos\CaseLaw\ETL.Json.Runner\bin\Debug\netcoreapp3.1\ETL.Json.Runner.pdb
+C:\Users\larag\source\repos\CaseLaw\ETL.Json.Runner\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\larag\source\repos\CaseLaw\ETL.Json.Runner\bin\Debug\netcoreapp3.1\ETL.Json.dll
+C:\Users\larag\source\repos\CaseLaw\ETL.Json.Runner\bin\Debug\netcoreapp3.1\ETL.Json.pdb
+C:\Users\larag\source\repos\CaseLaw\ETL.Json.Runner\obj\Debug\netcoreapp3.1\ETL.Json.Runner.csprojAssemblyReference.cache
+C:\Users\larag\source\repos\CaseLaw\ETL.Json.Runner\obj\Debug\netcoreapp3.1\ETL.Json.Runner.AssemblyInfoInputs.cache
+C:\Users\larag\source\repos\CaseLaw\ETL.Json.Runner\obj\Debug\netcoreapp3.1\ETL.Json.Runner.AssemblyInfo.cs
+C:\Users\larag\source\repos\CaseLaw\ETL.Json.Runner\obj\Debug\netcoreapp3.1\ETL.Json.Runner.csproj.CoreCompileInputs.cache
+C:\Users\larag\source\repos\CaseLaw\ETL.Json.Runner\obj\Debug\netcoreapp3.1\ETL.Json.Runner.csproj.CopyComplete
+C:\Users\larag\source\repos\CaseLaw\ETL.Json.Runner\obj\Debug\netcoreapp3.1\ETL.Json.Runner.dll
+C:\Users\larag\source\repos\CaseLaw\ETL.Json.Runner\obj\Debug\netcoreapp3.1\ETL.Json.Runner.pdb
+C:\Users\larag\source\repos\CaseLaw\ETL.Json.Runner\obj\Debug\netcoreapp3.1\ETL.Json.Runner.genruntimeconfig.cache

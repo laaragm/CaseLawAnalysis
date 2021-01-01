@@ -1,0 +1,9 @@
+C:\Users\larag\source\repos\CaseLaw\Base.Domain\bin\Debug\netstandard2.0\Base.Domain.deps.json
+C:\Users\larag\source\repos\CaseLaw\Base.Domain\bin\Debug\netstandard2.0\Base.Domain.dll
+C:\Users\larag\source\repos\CaseLaw\Base.Domain\bin\Debug\netstandard2.0\Base.Domain.pdb
+C:\Users\larag\source\repos\CaseLaw\Base.Domain\obj\Debug\netstandard2.0\Base.Domain.csprojAssemblyReference.cache
+C:\Users\larag\source\repos\CaseLaw\Base.Domain\obj\Debug\netstandard2.0\Base.Domain.AssemblyInfoInputs.cache
+C:\Users\larag\source\repos\CaseLaw\Base.Domain\obj\Debug\netstandard2.0\Base.Domain.AssemblyInfo.cs
+C:\Users\larag\source\repos\CaseLaw\Base.Domain\obj\Debug\netstandard2.0\Base.Domain.csproj.CoreCompileInputs.cache
+C:\Users\larag\source\repos\CaseLaw\Base.Domain\obj\Debug\netstandard2.0\Base.Domain.dll
+C:\Users\larag\source\repos\CaseLaw\Base.Domain\obj\Debug\netstandard2.0\Base.Domain.pdb

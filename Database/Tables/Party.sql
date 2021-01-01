@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Party]
+(
+	[ID] BIGINT NOT NULL PRIMARY KEY, 
+    [Name] NVARCHAR(MAX) NULL, 
+    [Type] NVARCHAR(MAX) NULL
+)

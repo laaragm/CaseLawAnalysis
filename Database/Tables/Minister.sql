@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Minister]
+(
+	[ID] BIGINT NOT NULL PRIMARY KEY, 
+    [Name] NVARCHAR(MAX) NULL
+)

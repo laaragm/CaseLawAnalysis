@@ -1,0 +1,10 @@
+C:\Users\larag\source\repos\CaseLaw\Database\bin\Debug\Database.dacpac
+C:\Users\larag\source\repos\CaseLaw\Database\bin\Debug\Database.dll
+C:\Users\larag\source\repos\CaseLaw\Database\bin\Debug\Database.pdb
+C:\Users\larag\source\repos\CaseLaw\Database\obj\Debug\Database.sqlprojAssemblyReference.cache
+C:\Users\larag\source\repos\CaseLaw\Database\obj\Debug\Model.xml
+C:\Users\larag\source\repos\CaseLaw\Database\obj\Debug\refactor.xml
+C:\Users\larag\source\repos\CaseLaw\Database\obj\Debug\postdeploy.sql
+C:\Users\larag\source\repos\CaseLaw\Database\obj\Debug\predeploy.sql
+C:\Users\larag\source\repos\CaseLaw\Database\obj\Debug\Database.dll
+C:\Users\larag\source\repos\CaseLaw\Database\obj\Debug\Database.pdb

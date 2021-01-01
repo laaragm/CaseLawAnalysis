@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dszFeSCCnWkWJ/q5Wm6UjjY68oW67vj/DVpASa+q5Rxo2/Z7RGcN6KvR/HN/GY1dsTsl7JOcSeJGUY++cZFa/Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\larag\\source\\repos\\CaseLaw\\Base.Domain\\Base.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\larag\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\larag\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

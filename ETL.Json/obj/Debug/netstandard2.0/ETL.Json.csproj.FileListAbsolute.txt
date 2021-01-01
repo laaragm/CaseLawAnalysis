@@ -1,0 +1,9 @@
+C:\Users\larag\source\repos\CaseLaw\ETL.Json\bin\Debug\netstandard2.0\ETL.Json.deps.json
+C:\Users\larag\source\repos\CaseLaw\ETL.Json\bin\Debug\netstandard2.0\ETL.Json.dll
+C:\Users\larag\source\repos\CaseLaw\ETL.Json\obj\Debug\netstandard2.0\ETL.Json.csprojAssemblyReference.cache
+C:\Users\larag\source\repos\CaseLaw\ETL.Json\obj\Debug\netstandard2.0\ETL.Json.AssemblyInfoInputs.cache
+C:\Users\larag\source\repos\CaseLaw\ETL.Json\obj\Debug\netstandard2.0\ETL.Json.AssemblyInfo.cs
+C:\Users\larag\source\repos\CaseLaw\ETL.Json\bin\Debug\netstandard2.0\ETL.Json.pdb
+C:\Users\larag\source\repos\CaseLaw\ETL.Json\obj\Debug\netstandard2.0\ETL.Json.csproj.CoreCompileInputs.cache
+C:\Users\larag\source\repos\CaseLaw\ETL.Json\obj\Debug\netstandard2.0\ETL.Json.dll
+C:\Users\larag\source\repos\CaseLaw\ETL.Json\obj\Debug\netstandard2.0\ETL.Json.pdb
