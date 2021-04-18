@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[JudmentDocument] (Table)
+       [dbo].[Minister] (Table)
+       [dbo].[Party] (Table)
+       [dbo].[Vote] (Table)
+       [dbo].[FK_JudmentDocument_Minister] (Foreign Key)
+       [dbo].[FK_Party_JudmentDocument] (Foreign Key)
+       [dbo].[FK_Vote_JudmentDocument] (Foreign Key)
+
+** Supporting actions

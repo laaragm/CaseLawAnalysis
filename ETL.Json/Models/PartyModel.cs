@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Domain;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 
@@ -22,5 +23,7 @@ namespace ETL.Json.Models
 			Name = name;
 			Type = type;
 		}
+
+		public Party ToParty() => new Party(ID, Name, Type);
 	}
 }

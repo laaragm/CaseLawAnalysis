@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Domain;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 
@@ -19,5 +20,7 @@ namespace ETL.Json.Models
 			ID = id;
 			Text = text;
 		}
+
+		public Vote ToVote() => new Vote(ID, Text);
 	}
 }

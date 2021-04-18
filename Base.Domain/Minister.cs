@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Base.Domain
+namespace Domain
 {
 	public class Minister
 	{

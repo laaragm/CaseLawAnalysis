@@ -8,4 +8,9 @@
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Base.Domain\Domain.csproj" />
+    <ProjectReference Include="..\Infra.CaseLaw\Infra.CaseLaw.csproj" />
+  </ItemGroup>
+
 </Project>

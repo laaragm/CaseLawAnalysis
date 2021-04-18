@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infra.CaseLaw.Abstractions\Infra.CaseLaw.Abstractions.csproj" />
+    <ProjectReference Include="..\Infra.Dapper.Abstractions\Infra.Dapper.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

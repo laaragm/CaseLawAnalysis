@@ -1,6 +1,9 @@
-﻿using Newtonsoft.Json;
+﻿using Domain;
+using ETL.Json.Services;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ETL.Json.Models
 {
@@ -36,6 +39,27 @@ namespace ETL.Json.Models
 			Report = report;
 			Votes = votes;
 			RawText = rawText;
+		}
+
+		public JudmentDocument ToJudmentDocument()
+		{
+			var judmentDocument = new JudmentDocument
+				(
+					ID,
+					ProcessNumber,
+					JudmentText.Text.Clean(),
+					DecisionText == null ? null : DecisionText.Text.Clean(),
+					new List<Party>(Parties.Select(x => new PartyModel(x.ID, x.Name, x.Type).ToParty())),
+					new ReportModel(Report.ID, Report.Reporter, Report.Text.Clean()).ToReportText(),
+					new Minister(0, Report.Reporter),
+					Report.Reporter,
+					new List<Vote>(Votes.Select(x => new VoteModel(x.ID, x.Text.Clean()).ToVote())),
+					string.Join(" ", RawText.Select(x => x.Clean()).ToArray())
+				);
+			judmentDocument.Parties.Select(x => x.JudmentDocument = new JudmentDocument(judmentDocument)).ToList();
+			judmentDocument.Votes.Select(x => x.JudmentDocument = new JudmentDocument(judmentDocument)).ToList();
+
+			return judmentDocument;
 		}
 	}
 }

@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Base.Domain
+namespace Domain
 {
 	public class Vote
 	{
 		public long ID { get; set; }
-		public string Text { get; set; } //"texto"
+		public string Text { get; set; }
+		public JudmentDocument JudmentDocument { get; set; }
 
 		public Vote()
 		{
@@ -16,6 +17,11 @@ namespace Base.Domain
 		{
 			ID = id;
 			Text = text;
+		}
+
+		public Vote(long id, string text, JudmentDocument judmentDocument) : this(id, text)
+		{
+			JudmentDocument = judmentDocument;
 		}
 	}
 }

@@ -1,0 +1,34 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[JudmentDocument]
+       [dbo].[Minister]
+       [dbo].[Party]
+       [dbo].[Report]
+       [dbo].[Vote]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [dbo].[JudmentDocument] (Table)
+       [dbo].[Minister] (Table)
+       [dbo].[Party] (Table)
+       [dbo].[Report] (Table)
+       [dbo].[Vote] (Table)
+     Create
+       [dbo].[FK_Party_JudmentDocument] (Foreign Key)
+       [dbo].[FK_Vote_JudmentDocument] (Foreign Key)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_JudmentDocument_Report] (Foreign Key)
+       [dbo].[FK_JudmentDocument_Minister] (Foreign Key)
+       [dbo].[FK_Report_Minister] (Foreign Key)
+     Create
+       [dbo].[FK_JudmentDocument_Report] (Foreign Key)
+       [dbo].[FK_JudmentDocument_Minister] (Foreign Key)
+       [dbo].[FK_Report_Minister] (Foreign Key)

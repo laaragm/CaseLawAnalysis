@@ -6,7 +6,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="appsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ETL.Json\ETL.Json.csproj" />
+    <ProjectReference Include="..\Infra.CaseLaw\Infra.CaseLaw.csproj" />
   </ItemGroup>
 
 </Project>

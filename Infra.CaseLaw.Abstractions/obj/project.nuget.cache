@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7adWA7NXJLlENkOxCMbB9P+1nR6BjF3Gpwi3xFF4S6QJzDti5aClwJbovFSD4A7okT3jIcBu1A3iaKIzSxEyfw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lara\\source\\repos\\CaseLaw\\Infra.CaseLaw.Abstractions\\Infra.CaseLaw.Abstractions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lara\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Lara\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,37 +1,51 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Base.Domain
+namespace Domain
 {
 	public class JudmentDocument
 	{
 		public long ID { get; set; }
-		public long ProcessNumber { get; set; } //"numero"
-		public string JudmentText { get; set; } //"acordao" -> "texto"
-		public string DecisionText { get; set; } //"extratoata" -> "texto"
-		public IEnumerable<Party> Parties { get; set; } //"partes" // 1->n criar tabela Party com FK pra JudmentDocument
-		public Report Report { get; set; } //"relatorio"
-		public Minister Minister { get; set; } //"relatorio" -> "relator"
-		public string MinisterName { get; set; } //"relatorio" -> "relator"
-		public IEnumerable<Vote> Votes { get; set; } //"votos" // 1->n criar tabela Vote com FK pra JudmentDocument
-		public IEnumerable<string> RawText { get; set; } //"integratxt"
+		public long ProcessNumber { get; set; }
+		public string JudmentText { get; set; }
+		public string DecisionText { get; set; }
+		public IEnumerable<Party> Parties { get; set; }
+		public string ReportText { get; set; }
+		public Minister Minister { get; set; }
+		public string MinisterName { get; set; }
+		public IEnumerable<Vote> Votes { get; set; }
+		public string RawText { get; set; }
 
 		public JudmentDocument()
 		{
 		}
 
-		public JudmentDocument(long id, long processNumber, string judmentText, string decisionText, IEnumerable<Party> parties, Report report, Minister minister, string ministerName, IEnumerable<Vote> votes, IEnumerable<string> rawText)
+		public JudmentDocument(long id, long processNumber, string judmentText, string decisionText, IEnumerable<Party> parties, string reportText, Minister minister, string ministerName, IEnumerable<Vote> votes, string rawText)
 		{
 			ID = id;
 			ProcessNumber = processNumber;
 			JudmentText = judmentText;
 			DecisionText = decisionText;
 			Parties = parties;
-			Report = report;
+			ReportText = reportText;
 			Minister = minister;
 			MinisterName = ministerName;
 			Votes = votes;
 			RawText = rawText;
+		}
+
+		public JudmentDocument(JudmentDocument judmentDocument)
+		{
+			ID = judmentDocument.ID;
+			ProcessNumber = judmentDocument.ProcessNumber;
+			JudmentText = judmentDocument.JudmentText;
+			DecisionText = judmentDocument.DecisionText;
+			Parties = judmentDocument.Parties;
+			ReportText = judmentDocument.ReportText;
+			Minister = judmentDocument.Minister;
+			MinisterName = judmentDocument.MinisterName;
+			Votes = judmentDocument.Votes;
+			RawText = judmentDocument.RawText;
 		}
 	}
 }

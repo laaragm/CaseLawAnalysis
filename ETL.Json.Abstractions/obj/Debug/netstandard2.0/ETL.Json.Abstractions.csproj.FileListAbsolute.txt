@@ -1,0 +1,4 @@
+C:\Users\larag\source\repos\CaseLaw\ETL.Json.Abstractions\obj\Debug\netstandard2.0\ETL.Json.Abstractions.csprojAssemblyReference.cache
+C:\Users\larag\source\repos\CaseLaw\ETL.Json.Abstractions\obj\Debug\netstandard2.0\ETL.Json.Abstractions.AssemblyInfoInputs.cache
+C:\Users\larag\source\repos\CaseLaw\ETL.Json.Abstractions\obj\Debug\netstandard2.0\ETL.Json.Abstractions.AssemblyInfo.cs
+C:\Users\larag\source\repos\CaseLaw\ETL.Json.Abstractions\obj\Debug\netstandard2.0\ETL.Json.Abstractions.csproj.CoreCompileInputs.cache

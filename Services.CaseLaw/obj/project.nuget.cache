@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "q62U8HW2YFtAFAVgRDZgw6mcdq6vTXBndDJ6s38G8J1j7xNTR5Pc7Q4ymn8a9JTYS+8OgUMDbu06dDaNxZ0dFQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lara\\source\\repos\\CaseLaw\\Services.CaseLaw\\Services.CaseLaw.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lara\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Lara\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
